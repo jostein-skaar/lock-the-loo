@@ -5,8 +5,8 @@
 <h1>Lock the Loo</h1>
 <img src={logo} alt="Lock the Loo logo is of a smiling door giving thumbs up" />
 <p>
-  When visiting a loo, we need to make sure the door is locked. Get all the training needed to be a responsible and aware employee in a
-  workplace environment.
+  When visiting a public toilet, we need to make sure the door is locked. Get all the training needed to be a responsible and aware employee
+  in a workplace environment.
 </p>
 
 <a href="/game">Get started</a>
