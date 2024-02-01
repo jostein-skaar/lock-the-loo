@@ -2,7 +2,7 @@
   import lockOpen from '$lib/assets/lock-open.png';
   import lockLocked from '$lib/assets/lock-locked.png';
 
-  let level = 1;
+  let level = 5;
   let locks = Array.from({ length: level * level }, () => false);
   let showNextLevelButton = false;
 
@@ -82,12 +82,16 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
+    display: block;
   }
 
   button img {
     max-width: min(160px, 100%);
     width: auto;
     height: auto;
+    display: block;
   }
 
   button.next-level-button {
