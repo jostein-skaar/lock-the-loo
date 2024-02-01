@@ -2,7 +2,7 @@
   import lockOpen from '$lib/assets/lock-open.png';
   import lockLocked from '$lib/assets/lock-locked.png';
 
-  let level = 5;
+  let level = 1;
   let locks = Array.from({ length: level * level }, () => false);
   let showNextLevelButton = false;
 
